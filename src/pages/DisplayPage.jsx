@@ -11,7 +11,11 @@ export default function DisplayPage() {
      React.useEffect(() => {
         store.fetchCoins()
 
+        
+
      }, [])
+
+     console.log(store.coins)
 
         return (
             <div>

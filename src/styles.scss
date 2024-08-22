@@ -29,7 +29,7 @@ input[type="text"] {
 
 }
 .width{
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     width: 92%;
 }
@@ -121,4 +121,19 @@ input[type="text"] {
     height: 500px;
     width: 100%;
     align-items: center;
+}
+
+.home-crypto-values{
+    display: flex;
+    gap: 20px;
+
+    h5{
+        color: black;
+        font-size: medium;
+    }
+
+    span{
+        color: #433e3e;
+        font-size: small;
+    }
 }
